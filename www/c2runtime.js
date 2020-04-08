@@ -24561,15 +24561,15 @@ cr.behaviors.DragnDrop = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Audio,
-	cr.plugins_.Function,
 	cr.plugins_.Button,
 	cr.plugins_.Browser,
-	cr.plugins_.Mouse,
-	cr.plugins_.progressbar,
+	cr.plugins_.Function,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
-	cr.plugins_.Text,
+	cr.plugins_.progressbar,
+	cr.plugins_.Mouse,
 	cr.plugins_.Touch,
+	cr.plugins_.Text,
+	cr.plugins_.Sprite,
 	cr.behaviors.DragnDrop,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.system_object.prototype.cnds.OnLayoutStart,
@@ -24635,5 +24635,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr.prototype.acts.Insert,
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
 	cr.plugins_.Sprite.prototype.cnds.OnCreated,
-	cr.plugins_.Mouse.prototype.cnds.OnClick
+	cr.plugins_.Mouse.prototype.cnds.OnClick,
+	cr.plugins_.Text.prototype.cnds.PickDistance,
+	cr.plugins_.Sprite.prototype.exps.X,
+	cr.plugins_.Sprite.prototype.exps.Y,
+	cr.plugins_.Arr.prototype.exps.IndexOf
 ];};
