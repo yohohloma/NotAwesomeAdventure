@@ -25722,8 +25722,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
 	cr.plugins_.progressbar,
 	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.Touch,
 	cr.behaviors.DragnDrop,
 	cr.behaviors.scrollto,
 	cr.behaviors.solid,
@@ -25801,6 +25801,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SaveState,
 	cr.system_object.prototype.acts.ScrollY,
 	cr.plugins_.Sprite.prototype.acts.SetY,
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.Touch.prototype.cnds.OnTapGesture,
 	cr.system_object.prototype.acts.LoadState
 ];};
